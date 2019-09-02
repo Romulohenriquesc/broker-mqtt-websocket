@@ -14,9 +14,13 @@ $ sudo apt-get install libwebsockets-dev/
 Download mosquitto
 
 $ cd Downloads/
+
 $ wget http://mosquitto.org/files/source/mosquitto-1.4.10.tar.gz
+
 $ tar zxvf mosquitto-1.4.10.tar.gz
+
 $ cd mosquitto-1.4.10/
+
 $ sudo nano config.mk
 
 Editar arquivo config.mk
@@ -26,7 +30,9 @@ WITH_WEBSOCKETS:=yes
 Build mosquitto
 
 $ make
+
 $ sudo make install
+
 $ sudo cp mosquitto.conf /etc/mosquitto
 
 Configurar portas para mosquito
