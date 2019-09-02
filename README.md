@@ -3,12 +3,19 @@
 Instalar as dependências
 
 $ sudo apt-get update
+
 $ sudo apt-get install build-essential python quilt python-setuptools python3
+
 $ sudo apt-get install libssl-dev
+
 $ sudo apt-get install cmake
+
 $ sudo apt-get install libc-ares-dev
+
 $ sudo apt-get install uuid-dev
+
 $ sudo apt-get install daemon
+
 $ sudo apt-get install libwebsockets-dev/
 
 Download mosquitto
