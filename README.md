@@ -50,10 +50,13 @@ listener 9001
 protocol websockets
 
 Adicionar usuário para mosquito
+
 $ sudo adduser mosquitto
 
 Reinicie o computador
+
 $ reboot
 
 Executar mosquito
+
 $ mosquitto -c /etc/mosquitto/mosquitto.conf
